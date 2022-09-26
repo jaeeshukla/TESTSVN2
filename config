@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[svn-remote "svn"]
+	noMetadata = 1
+	url = file:///C/BI/AZI
+	fetch = trunk:refs/remotes/origin/trunk
+	branches = branches/*:refs/remotes/origin/*
+	tags = tags/*:refs/remotes/origin/tags/*
+	branches = branches/*:refs/remotes/origin/*
+	tags = tags/*:refs/remotes/origin/tags/*
+[svn]
+	authorsfile = C:/Users/jaee.shukla/authors-transform.txt
+[remote "origin"]
+	url = https://github.com/jaeeshukla/TestSVN.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
